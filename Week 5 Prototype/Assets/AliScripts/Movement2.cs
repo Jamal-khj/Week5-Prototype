@@ -80,7 +80,7 @@ public class Movement2 : MonoBehaviour
 
     //Jumping
     private bool readyToJump = true;
-    private float jumpCooldown = 0.25f;
+    private float jumpCooldown = 3f;
     public float jumpForce = 550f;
 
     //Input
@@ -167,8 +167,8 @@ public class Movement2 : MonoBehaviour
         CounterMovement(x, y, mag);
 
         //If holding jump && ready to jump, then jump
-        if (readyToJump && jumping) Jump();
-
+        //if (readyToJump && jumping) Jump();
+                
         //Set max speed
         float maxSpeed = this.maxSpeed;
 
