@@ -167,7 +167,7 @@ public class Movement2 : MonoBehaviour
         CounterMovement(x, y, mag);
 
         //If holding jump && ready to jump, then jump
-        //if (readyToJump && jumping) Jump();
+        if (readyToJump && jumping) Jump();
                 
         //Set max speed
         float maxSpeed = this.maxSpeed;
