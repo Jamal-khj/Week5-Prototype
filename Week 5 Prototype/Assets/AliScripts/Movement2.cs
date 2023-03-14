@@ -80,7 +80,7 @@ public class Movement2 : MonoBehaviour
 
     //Jumping
     private bool readyToJump = true;
-    private float jumpCooldown = 3f;
+    private float jumpCooldown = 1f;
     public float jumpForce = 550f;
 
     //Input
